@@ -1,7 +1,5 @@
 <template>
-    <transition enter-active-class="router-animated-app fadeIn">
-        <router-view ref="/"></router-view>
-    </transition>
+	<router-view></router-view>
 </template>
 <script>
 export default {
